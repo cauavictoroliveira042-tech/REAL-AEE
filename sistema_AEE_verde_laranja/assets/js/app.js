@@ -1,0 +1,1 @@
+function toggleMenu(){document.getElementById("sidebar").classList.toggle("open")}function save(e){if(e)e.preventDefault();let t=document.getElementById("toast");t.classList.add("show");setTimeout(()=>t.classList.remove("show"),2200)}document.addEventListener("change",e=>{if(e.target.id==="files"&&e.target.files.length)save()});
